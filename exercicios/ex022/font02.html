@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/alinhamentofavicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        @font-face {
+            font-family: 'oebi';
+            src: url('fonts/OpenSans-ExtraBoldItalic.ttf');
+        }
+        @font-face {
+            font-family: 'oli';
+            src: url('fonts/OpenSans-LightItalic.ttf');
+        }
+        @font-face {
+            font-family: 'Love';
+            src: url('fonts/love story ttf.ttf') format('truetype');
+            font-style: italic;
+            font-weight: normal;
+        }
+        @font-face {
+            font-family: 'Love2';
+            src: url('fonts/Mf Love Song.ttf') format('truetype');
+            font-style: italic;
+            font-weight: normal;
+        }
+        body {
+            font-family: 'oli', sans-serif;
+            font-weight: 500;
+        }
+        h1 {
+            font-family: 'oebi', sans-serif;
+            font-size: 3em;
+            font-weight: bold;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam iusto voluptate officiis temporibus quis nesciunt assumenda provident praesentium? Quam quidem vel dignissimos labore inventore corrupti ea nemo soluta, error cumque.</p>
+    <picture>
+        <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="">
+    </picture>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+    background-image: radial-gradient(circle, yellow -100%, red -10000%, blue 100%); 
+    }
+    h1 {
+        background-color: hsl(180, 100%, 75%);
+        color: hsl(180, 100%, 50%);
+    }
+    h2 {
+        color: hsl(200, 53%, 15%);
+    }
+    p {
+        text-align: justify;
+    }
