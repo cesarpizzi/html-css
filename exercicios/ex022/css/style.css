@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+body {
+    background-image: url('../imagens/pattern003.png');
+    background-size: cover;
+}
+.quadrado {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: solid 2px black;
+}
+.q1 {
+    background-color: blueviolet;
+}
+.q2 {
+    background-image: url('../imagens/wallpaper003.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.q3 {
+    background-image: url('../imagens/wallpaper002.jpg');
+    background-size: 50% 50%;
+
+}
