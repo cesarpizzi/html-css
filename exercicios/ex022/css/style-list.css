@@ -1,0 +1,28 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    
+    padding: 20px;
+    width: 20%;
+    columns: 2;
+    list-style-position: inside;
+    background-color: blueviolet;
+    border-radius: 15px;
+    box-shadow: 1px 1px 0px black;;
+    
+}
+li {
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
