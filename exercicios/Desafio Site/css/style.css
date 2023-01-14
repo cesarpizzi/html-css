@@ -136,8 +136,9 @@ main a:hover {
     padding-bottom: 56.25%;
 }
 .video {
-    top: 12.45%;
-    left: 12.45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: var(--cor04);
     position: absolute;
     width: 75%;
