@@ -1,0 +1,58 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+}
+body {
+    height: 100vh;
+    background-color: lightgray;
+}
+div {
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    height: 100vh;
+    background-olor: brown;
+    display: flex;
+}
+table {
+    width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+}
+caption {
+    border: 2px solid black;
+    border-bottom: 0px;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: burlywood;
+}
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+td.num {
+    text-align: right;
+    color: black;
+}
+#n1, #n3, #n5 {
+    color: hsl(0, 0%, 50%);
+}
+td#total {
+    background-color: rgb(178, 67, 182);
+    font-weight: bold;
+}
+th {
+    border: 2px solid black;
+    background-color: rgb(135, 212, 187);
+}
+th.populacao {
+    width: 120px;
+}
+tbody > tr:nth-child(2n) {
+    background-color: hsl(0, 0%, 50%);
+}
+tbody > tr:nth-child(odd) {
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+}
