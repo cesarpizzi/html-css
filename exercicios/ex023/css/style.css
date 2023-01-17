@@ -18,6 +18,7 @@ table {
     width: 500px;
     margin: auto;
     border-collapse: collapse;
+    user-select: none;
 }
 caption {
     border: 2px solid black;
