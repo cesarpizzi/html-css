@@ -1,0 +1,55 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+}
+body {
+    height: 100vh;
+    backgrond-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.mestre {
+    width: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div.table {
+    margin: auto;
+    max-width: 800px;
+    min-width: 200px;
+    backgrond-color: brown;
+    display: flex;
+}
+table {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th, caption {
+    border: 1px solid black;
+    padding: 3px;
+}
+caption {
+    text-align: left;
+    border-bottom: 0 solid black;
+}
+th.media-de {
+    text-align: left;
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+thead > tr:nth-child(1n) {
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+td.disciplinas {
+    text-align: left;
+}
+td.media-de-num {
+    background-color: rgb(104, 104, 104);
+    color: white;
+}

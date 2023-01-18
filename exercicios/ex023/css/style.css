@@ -19,6 +19,7 @@ table {
     margin: auto;
     border-collapse: collapse;
     user-select: none;
+    position: relative;
 }
 caption {
     border: 2px solid black;
@@ -27,6 +28,11 @@ caption {
     padding: 10px;
     font-size: 1.2em;
     background-color: burlywood;
+}
+thead > tr > th {
+    position: sticky;
+    top: -2px;
+
 }
 td {
     border: 2px solid black;

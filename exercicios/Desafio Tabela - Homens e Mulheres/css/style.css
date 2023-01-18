@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    background-color: darkgray;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+caption {
+    border: 3px solid black;
+    padding: 8px;
+    background-color: rgb(77, 77, 77);
+    border-bottom: 0;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5em;
+}
+th {
+    border: 1px solid black;
+    padding: 8px;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+tr.mulheres {
+    background-color: pink;
+}
+tr.homens {
+    background-color: skyblue;
+}
