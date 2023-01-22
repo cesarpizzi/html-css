@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        div {
+            margin-bottom: 16px;
+            margin-top: 16px;
+        }
+        fieldset {
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body> 
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+        <div>
+            <label for="inome">
+                Nome 
+            </label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required minlength="2" maxlength="50" size="50" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label for="iemail">
+                E-mail
+            </label>
+            <input type="email" name="email" id="iemail" required autocomplete="email" minlength="5" maxlength="50" size="50" placeholder="Digite seu e-mail">
+        </div>
+        <div>
+            <label for="itel">
+                Telefone
+            </label>
+            <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="(xx)xxxx-xxxx" minlength="10" maxlength="30" size="30">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados do cartão</legend>
+            <form action="cadastro.php" method="get" autocomplete="on">
+        <div>
+            <label for="inome">
+                Número do cartão 
+            </label>
+            <input type="text" name="nome" id="inome" autocomplete="name" required minlength="2" maxlength="50" size="50" placeholder="Digite o número do cartão">
+        </div>
+        <div>
+            <label for="iemail">
+                Código de segurança
+            </label>
+            <input type="email" name="email" id="iemail" required autocomplete="email" minlength="5" maxlength="50" size="50" placeholder="Digite o código de segurança">
+        </div>
+        <div>
+            <label for="itel">
+                CPF
+            </label>
+            <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="Digite o número do seu CPF" minlength="10" maxlength="30" size="30">
+        </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
+    
+    
