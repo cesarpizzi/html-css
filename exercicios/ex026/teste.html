@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: gray;
+        }
+        div.mestre-mestre {
+            margin: auto;
+            max-width: 800px;
+            min-width: 320px;
+            height: 100vh;
+            backgroun-color: pink;
+        }
+        div.mestre {
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 100% 0 0 0;
+            background-color: rgb(65, 51, 51);
+            position: relative;
+        }
+        div.pai {
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            background-image: linear-gradient(-45deg, red, blue);
+            position: absolute;
+            box-shadow: 10px 10px 0px hsl(0, 0%, 10%);
+        }
+        div.filho01, div.filho02, div.filho03, div.filho04 {
+            width: 20%;
+            height: 20%;
+        }
+        div.filho05 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30%;
+            height: 30%;
+            background-color: gray;
+            box-shadow: inset 10px 10px 0px hsl(0, 0%, 10%);
+        }
+        div.filho01 {
+            background-color: red;
+            border-radius: 0 0 100% 0;
+        }
+        div.filho02 {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: blue;
+            border-radius: 0 0 0 100%;
+        }
+        div.filho03 {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            background-color: green;
+            border-radius: 0 100% 0 0;
+        }
+        div.filho04 {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: yellow;
+            border-radius: 100% 0 0 0;
+        }
+        div.filho05 {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="mestre-mestre">
+        <div class="mestre">
+            <div class="pai">
+                <div class="filho01"></div>
+                <div class="filho02"></div>
+                <div class="filho03"></div>
+                <div class="filho04"></div>
+                <div class="filho05"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
