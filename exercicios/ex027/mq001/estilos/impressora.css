@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Estilos para Impressoras */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+html {
+    padding: 50px;
+}
+header h1 {
+    color: brown;
+}
+h1, h2, p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+article {
+    line-height: 40px;
+}
+nav {
+    display: none;
+}
+article::after {
+    content: 'Estou cansado';
+}
+
