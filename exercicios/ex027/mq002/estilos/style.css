@@ -13,22 +13,7 @@ html, body {
     background-color: #233eff;
 }
 h1 {
-    color: #16269c;
-    textshadow: 2px 2px 0px #080e38;
+    color: white;
+    text-shadow: 2px 2px 0px #16269c;
     padding: 10px;
-    text-align: center;
-}
-main {
-    padding: 40px;
-    margin: auto;
-    max-width: 800px;
-    min-width: 320px;
-    height: 2000px;
-    background-color: white;
-}
-div.imagem-paisagem img {
-    width: 100%;
-}
-div.imagem-retrato img {
-    width: 100%;
 }

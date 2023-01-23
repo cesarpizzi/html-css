@@ -2,6 +2,9 @@
 
 /* Configurações Paisagem */
 
-div.imagem-retrato {
-    display: none;
+body {
+    background-image: url('../imagens/cev-landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
 }

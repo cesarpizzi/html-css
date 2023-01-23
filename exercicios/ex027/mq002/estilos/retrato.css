@@ -2,6 +2,9 @@
 
 /* Configurações retrato */
 
-div.imagem-paisagem {
-    display: none;
+body {
+    background-image: url('../imagens/cev-portrait.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
 }
