@@ -1,3 +1,34 @@
 @charset "UTF-8";
 
 /* Configurações gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+}
+h1 {
+    color: #16269c;
+    textshadow: 2px 2px 0px #080e38;
+    padding: 10px;
+    text-align: center;
+}
+main {
+    padding: 40px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    height: 2000px;
+    background-color: white;
+}
+div.imagem-paisagem img {
+    width: 100%;
+}
+div.imagem-retrato img {
+    width: 100%;
+}
