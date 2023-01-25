@@ -23,14 +23,14 @@ header {
 header h1 {
     text-align: center;
 }
-span#burguer {
+span.material-symbols-outlined {
     display: block;
     padding: 10px;
     text-align: center;
     background-color: rgb(34, 34, 34);
     color: white;
 }
-span#burguer {
+span.material-symbols-outlined {
     background-color: white;
     color: black;
     cursor: pointer;
