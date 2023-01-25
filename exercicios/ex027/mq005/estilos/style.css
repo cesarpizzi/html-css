@@ -23,6 +23,21 @@ header {
 header h1 {
     text-align: center;
 }
+span.material-symbols-outlined {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+span.material-symbols-outlined:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+nav {
+    display: none;
+}
 li {
     border-top: 2px solid #8f8f8f;
     color: #9B9A99;
@@ -44,9 +59,10 @@ a:hover {
     color: #e7e7e3;
 }
 main {
+    
     margin: auto;
-    margin: 10px;
-    max-width: 1000px;
+    margin-top: 10px;
+    width: 90vw;
     min-width: 320px;
 }
 article {
