@@ -30,7 +30,7 @@ span.material-symbols-outlined {
     background-color: rgb(34, 34, 34);
     color: white;
 }
-span.material-symbols-outlined {
+span.material-symbols-outlined:hover {
     background-color: white;
     color: black;
     cursor: pointer;

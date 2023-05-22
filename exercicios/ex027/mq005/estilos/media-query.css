@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    
+    span.material-symbols-outlined {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    li {
+        display: inline-block;
+    }
+    main {
+        width: 768px;
+    }
+}
